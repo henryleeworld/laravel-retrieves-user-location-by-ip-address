@@ -1,4 +1,4 @@
-# Laravel 10 透過 IP 位址取得使用者的位置
+# Laravel 11 透過 IP 位址取得使用者的位置
 
 引入 stevebauman 的 location 套件來擴增透過 IP 位址取得使用者的位置。地理位置的運作方式是將 IP 位址對應到位置，然而，有些 IP 位址並未映射到地理位置。
 
@@ -16,11 +16,15 @@ $ composer install
 ```sh
 $ php artisan key:generate
 ```
+- 執行 __Artisan__ 指令的 __migrate__ 來執行所有未完成的遷移。
+```sh
+$ php artisan migrate
+```
 - 在瀏覽器中輸入已定義的路由 URL 來訪問，例如：http://127.0.0.1:8000。
 - 你可以經由 `/user/information` 來進行使用者建立時間取得。
 
 ----
 
 ## 畫面截圖
-![](https://i.imgur.com/bJKBNja.png)
+![](https://i.imgur.com/KEPGSrR.png)
 > 對地理位置的 IP 位址的配對
