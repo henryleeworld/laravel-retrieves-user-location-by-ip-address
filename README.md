@@ -1,4 +1,4 @@
-# Laravel 11 透過 IP 位址取得使用者的位置
+# Laravel 12 透過 IP 位址取得使用者的位置
 
 引入 stevebauman 的 location 套件來擴增透過 IP 位址取得使用者的位置。地理位置的運作方式是將 IP 位址對應到位置，然而，有些 IP 位址並未映射到地理位置。
 
@@ -26,5 +26,5 @@ $ php artisan migrate
 ----
 
 ## 畫面截圖
-![](https://i.imgur.com/KEPGSrR.png)
+![](https://i.imgur.com/KM2YFtM.png)
 > 對地理位置的 IP 位址的配對
